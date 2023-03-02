@@ -23,8 +23,6 @@ main {
   position: relative;
   height: 100vh;
   width: 100vw;
-  
-  
 }
 
 section#login {
@@ -36,4 +34,12 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+section#login > div#imagem {
+  background: url(../imagens/pexels-wallace-chuck-15608553.jpg) no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  height: 200px;
 }
