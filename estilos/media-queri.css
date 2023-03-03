@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+/*typical device breakpoints
+
+Pequenas telas: até 600px
+celular: 600px até 768px
+tablet: 768px a 992px
+desktop: 992px até 1200px
+Telas grandes: Acima de 1200px */
+
+
+/*A versão celular e pequenas telas já foram criadas no mobile first*/
+
+@media screen and (min-width: 768px) and (max-width: 992px ) {
+     section#login{
+        width: 90vw;
+     }
+}
